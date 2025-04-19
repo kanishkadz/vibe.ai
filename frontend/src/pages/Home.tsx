@@ -11,7 +11,7 @@ export const Home = () => {
       <main className='flex-1 flex flex-col items-center justify-center max-w-5xl mx-auto w-full pb-20'>
         <div className='flex flex-col items-center justify-center'>
           <img src="Icon.png" alt="Icon" />
-          <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold text-[#3c3c3c] text-center mb-8 mt-5'>
+          <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold text-[#4e4e4e] text-center mb-8 mt-5'>
             Ready To Bring Your Ideas To Life?
           </h1>
           <p className='font-bold text-[#ffffff7c]'>
