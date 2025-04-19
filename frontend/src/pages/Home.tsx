@@ -1,5 +1,6 @@
 import React from 'react';
 import { Sparkles } from 'lucide-react';
+import HeroTitle from '../hooks/HeroTitle';
 
 export const Home = () => {
   return (
@@ -11,8 +12,8 @@ export const Home = () => {
       <main className='flex-1 flex flex-col items-center justify-center max-w-5xl mx-auto w-full pb-20'>
         <div className='flex flex-col items-center justify-center'>
           <img src="Icon.png" alt="Icon" />
-          <h1 className='relative text-4xl md:text-5xl lg:text-6xl font-bold text-transparent stroke-text text-center mb-8 mt-5 hover-reveal'>
-            Ready To Bring Your Ideas To Life?
+          <h1>
+            <HeroTitle />
           </h1>
 
           <p className='font-bold text-[#ffffff7c]'>
