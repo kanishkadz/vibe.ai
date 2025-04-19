@@ -1,5 +1,6 @@
 import React from 'react'
 import TextEditor from '../components/TextEditor';
+import CodePreview from '../components/CodePreview';
 
 export const Builder = () => {
   return (
@@ -9,7 +10,10 @@ export const Builder = () => {
 
         <main className='flex gap-8'>
           <TextEditor />
+          <CodePreview />
         </main>
+
+        
       </div>
     </div>
   )
