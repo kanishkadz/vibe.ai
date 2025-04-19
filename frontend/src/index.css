@@ -26,4 +26,33 @@
     box-shadow: 0 0 12px #ff3e9a, 0 0 24px #ff3e9a;
   }
 
+
+  .glass-button {
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    border: 1px solid #333;
+    color: #ccc;
+    background-color: rgba(26, 26, 26, 0.6);
+    backdrop-filter: blur(8px);
+    cursor: pointer;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .glass-button:hover {
+    background-image: radial-gradient(
+      circle at var(--x, 50%) var(--y, 50%),
+      #ff3e9a55 0%,
+      transparent 35%
+    );
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  
   
