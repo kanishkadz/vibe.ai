@@ -3,7 +3,7 @@ import { Sparkles } from 'lucide-react';
 
 const Home = () => {
   return (
-    <div className='min-h-screen w-full bg-gradient-to-b from-[#e6b3d1] via-[#d9c1d9] to-[#d1d1d1] flex flex-col px-6'>
+    <div className='min-h-screen w-full bg-gradient-to-b from-[#ff40ab] via-[#fc5bb6] to-[#0c0c0c] flex flex-col px-6'>
       <header className='pt-8 pb-4'>
         <img src="Logo.png" alt="Logo" />
       </header>
