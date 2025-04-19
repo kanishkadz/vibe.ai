@@ -12,7 +12,7 @@ export const Home = () => {
       <main className='flex-1 flex flex-col items-center justify-center max-w-5xl mx-auto w-full pb-20'>
         <div className='flex flex-col items-center justify-center'>
           <img src="Icon.png" alt="Icon" />
-          <h1 className="hero-title whitespace-nowrap overflow-hidden text-ellipsis mb-5">
+          <h1 className="hero-title whitespace-nowrap overflow-hidden text-ellipsis mb-3">
             <HeroTitle />
           </h1>
 
@@ -20,7 +20,7 @@ export const Home = () => {
             Design. Build. and Launch Stunning Websites & Apps - All In One Place
           </p>
 
-          <div className='relative w-full max-w-[700px] mx-auto mt-16'>
+          <div className='relative w-full max-w-[700px] mx-auto mt-10'>
             <div className='absolute left-5 top-1/2 transform -translate-y-1/2 text-[#ff3e9a]'>
               <Sparkles className='w-5 h-5' />
             </div>
