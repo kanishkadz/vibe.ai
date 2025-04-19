@@ -27,6 +27,7 @@ export function Home() {
 
           {/* heading */}
           <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold text-[#333333] text-center mb-8'>Ready To Bring Your Ideas To Life?</h1>
+          <p className='font-bold text-white'>Design. Build. and Launch Stunning Websites & Apps - All In One Place</p>
 
           {/* input */}
           <div className='relative w-full max-w-[700px] mx-auto mt-16'>
