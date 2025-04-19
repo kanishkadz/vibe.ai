@@ -1,5 +1,6 @@
 import TextEditor from '../components/TextEditor';
 import CodePreview from '../components/CodePreview';
+import ChangePrompt from '../components/ChangePrompt';
 
 export const Builder = () => {
   return (
@@ -12,7 +13,7 @@ export const Builder = () => {
           <CodePreview />
         </main>
 
-
+        <ChangePrompt />
       </div>
     </div>
   )
