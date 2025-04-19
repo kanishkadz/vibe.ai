@@ -11,12 +11,17 @@ const HeroTitle = () => {
     e.currentTarget.style.setProperty('--y', `${y}%`);
   };
 
+  const handleMouseLeave = (e: React.MouseEvent<HTMLHeadingElement>) => {
+    e.currentTarget.style.setProperty('--x', `50%`);
+    e.currentTarget.style.setProperty('--y', `50%`);
+  };
+
   return (
     <h1
       ref={titleRef}
-      className='relative text-4xl md:text-5xl lg:text-6xl font-bold text-transparent stroke-text text-center mb-8 mt-5 hover-reveal'
-      data-text="Ready To Bring Your Ideas To Life?"
+      className='hero-title'
       onMouseMove={handleMouseMove}
+      onMouseLeave={handleMouseLeave}
     >
       Ready To Bring Your Ideas To Life?
     </h1>
