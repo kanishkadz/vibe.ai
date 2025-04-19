@@ -1,4 +1,3 @@
-import React from 'react'
 import TextEditor from '../components/TextEditor';
 import CodePreview from '../components/CodePreview';
 
@@ -13,7 +12,7 @@ export const Builder = () => {
           <CodePreview />
         </main>
 
-        
+
       </div>
     </div>
   )
