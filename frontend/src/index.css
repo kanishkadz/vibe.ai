@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+.stroke-text {
+    -webkit-text-stroke: 1.5px #4e4e4e;
+    color: transparent;
+    position: relative;
+  }
+  
+  .hover-reveal {
+    background: radial-gradient(circle at var(--x, 50%) var(--y, 50%), #ff40ab 0%, transparent 40%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: background 0.2s ease;
+  }
+  
+  .hover-reveal:hover {
+    color: transparent;
+  }
+  
+  .hover-reveal:hover::before {
+    content: attr(data-text);
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+  
