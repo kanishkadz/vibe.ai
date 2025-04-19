@@ -25,4 +25,23 @@
   .input-glow:focus {
     box-shadow: 0 0 12px #ff3e9a, 0 0 24px #ff3e9a;
   }
+
+  
+  .glow-hover-input {
+    position: relative;
+    outline: 2px solid transparent;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    transition: background 0.2s ease;
+  }
+  
+  .glow-hover-input:hover {
+    background-image: radial-gradient(
+      circle at var(--x, 50%) var(--y, 50%),
+      #ff3e9a 0%,
+      transparent 25%
+    );
+    background-position: center;
+    background-size: 100% 100%;
+  }
   
