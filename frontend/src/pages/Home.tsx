@@ -5,7 +5,6 @@ import HeroTitle from '../hooks/HeroTitle';
 export const Home = () => {
   return (
     <div className='min-h-screen w-full bg-gradient-to-b from-[#b14a84] via-[#000000] to-[#000000] flex flex-col px-6'>
-      
       <main className='flex-1 flex flex-col items-center justify-center max-w-5xl mx-auto w-full pb-20'>
         <div className='flex flex-col items-center justify-center'>
           <img src="Icon.png" alt="Icon" />

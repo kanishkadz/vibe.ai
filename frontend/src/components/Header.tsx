@@ -2,9 +2,10 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header className='pt-8 pb-4'>
-        <img src="Logo.png" alt="Logo" />
-      </header>
+    <div className='bg-[#b14a84] pt-5 pb-4 pl-5 flex'>
+
+        <img src="/Logo.png" alt="Logo" />
+    </div>
   )
 }
 
