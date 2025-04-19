@@ -2,7 +2,9 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <header className='pt-8 pb-4'>
+        <img src="Logo.png" alt="Logo" />
+      </header>
   )
 }
 
