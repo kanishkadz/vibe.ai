@@ -20,7 +20,7 @@ export const Home = () => {
             Design. Build. and Launch Stunning Websites & Apps - All In One Place
           </p>
 
-          <div className='relative w-full max-w-[700px] mx-auto mt-10'>
+          <div className='relative w-full max-w-[700px] mx-auto mt-15'>
             <div className='absolute left-5 top-1/2 transform -translate-y-1/2 text-[#ff3e9a]'>
               <Sparkles className='w-5 h-5' />
             </div>
