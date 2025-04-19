@@ -26,9 +26,10 @@ export const Home = () => {
             </div>
             <input
               type="text"
-              placeholder='What do you want to build today?'
-              className='w-full py-5 px-12 bg-[#1a1a1a] text-white rounded-3xl focus:outline-none focus:ring-2 focus:ring-[#ff3e9a] transition-all duration-300 placeholder-gray-400 text-lg'
+              placeholder="What do you want to build today?"
+              className="w-full py-5 px-12 bg-[#1a1a1a] text-white rounded-3xl focus:outline-none focus:ring-2 focus:ring-[#ff3e9a] transition-all duration-300 placeholder-gray-400 text-lg input-glow"
             />
+
           </div>
         </div>
       </main>
