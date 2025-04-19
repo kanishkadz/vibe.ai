@@ -21,4 +21,8 @@
     -webkit-background-clip: text;
     color: transparent;
   }
+
+  .input-glow:focus {
+    box-shadow: 0 0 12px #ff3e9a, 0 0 24px #ff3e9a;
+  }
   
