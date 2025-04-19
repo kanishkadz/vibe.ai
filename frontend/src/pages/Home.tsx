@@ -12,7 +12,7 @@ export const Home = () => {
       <main className='flex-1 flex flex-col items-center justify-center max-w-5xl mx-auto w-full pb-20'>
         <div className='flex flex-col items-center justify-center'>
           <img src="Icon.png" alt="Icon" />
-          <h1 className="hero-title whitespace-nowrap overflow-hidden text-ellipsis">
+          <h1 className="hero-title whitespace-nowrap overflow-hidden text-ellipsis mb-5">
             <HeroTitle />
           </h1>
 
