@@ -4,7 +4,7 @@ import { StepsList } from '../components/StepsList';
 import { FileExplorer } from '../components/FileExplorer';
 import { TabView } from '../components/TabView';
 import { CodeEditor } from '../components/CodeEditor';
-import { PreviewFrame } from '../components/PreviewFrame
+import { PreviewFrame } from '../components/PreviewFrame';
 import { Step, FileItem, StepType } from '../types';
 import axios from 'axios';
 import { BACKEND_URL } from '../config';
