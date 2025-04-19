@@ -1,4 +1,5 @@
 import React from 'react'
+import TextEditor from '../components/TextEditor';
 
 export const Builder = () => {
   return (
@@ -6,7 +7,9 @@ export const Builder = () => {
       <div className='max-w-[1400px] mx-auto px-8 py-6'>
         <header className='mb-12'> <img src="Logo.png" alt="" /></header>
 
-        <main className='flex gap-8'></main>
+        <main className='flex gap-8'>
+          <TextEditor />
+        </main>
       </div>
     </div>
   )
