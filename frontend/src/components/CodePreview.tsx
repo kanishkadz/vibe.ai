@@ -1,19 +1,35 @@
-import React from 'react'
+import React, { useState } from 'react';
 
 const CodePreview = () => {
-  return (
-    <div className='flex-1 rounded-xl overflow-hidden border-gray-700'>
-        <div className='flex items-center gap-2 px-4 py-2 bg-[#1a1a1a1a] border-b border-gray-700'>
-            <span className='text-[#ff3e9a]'>Code</span>
-            <span className='text-gray-400'>Preview</span>
-        </div>
-        <div className='grid grid-cols-2 h-[600px]'>
-            <div className='border-r border-gray-700 bg-[#1a1a1a1a]'>
-                <div className='bg-[#1a1a1a1a]'></div>
-            </div>
-        </div>
-    </div>
-  )
-}
+  const [activeTab, setActiveTab] = useState('code');
 
-export default CodePreview
+  return (
+    <div className='flex-1 rounded-xl overflow-hidden border border-gray-700'>
+      <div className='flex items-center gap-4 px-4 py-2 bg-[1e1e1e] border-b border-gray-700'>
+        <button onClick={() => setActiveTab('code')} className={`text-sm font-medium ${activeTab === 'code' ? 'text-[#ff3e9a]' : 'text-gray-400'}`}>
+          Code
+        </button>
+        <button onClick={() => setActiveTab('preview')} className={`text-sm font-medium ${activeTab === 'preview' ? 'text-[#ff3e9a]' : 'text-gray-400'}`}>
+          Preview
+        </button>
+      </div>
+
+      {/* Content Area */}
+      <div className='h-[600px] bg-[#1e1e1e] p-4 text-white'>
+        {activeTab === 'code' ? (
+          <div className='h-full border border-dashed border-gray-600 rounded p-4'>
+            {/* Replace this with actual code editor later */}
+            <p>// Write your code here...</p>
+          </div>
+        ) : (
+          <div className='h-full border border-dashed border-gray-600 rounded p-4'>
+            {/* Replace this with live preview logic */}
+            <p>This is the preview of what you wrote.</p>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default CodePreview;
