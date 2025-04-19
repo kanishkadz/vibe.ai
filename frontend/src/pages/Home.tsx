@@ -11,10 +11,10 @@ export const Home = () => {
       <main className='flex-1 flex flex-col items-center justify-center max-w-5xl mx-auto w-full pb-20'>
         <div className='flex flex-col items-center justify-center'>
           <img src="Icon.png" alt="Icon" />
-          <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold text-[#3c3c3c] text-center mb-8'>
+          <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold text-[#3c3c3c] text-center mb-8 mt-5'>
             Ready To Bring Your Ideas To Life?
           </h1>
-          <p className='font-bold text-white'>
+          <p className='font-bold text-[#ffffff7c]'>
             Design. Build. and Launch Stunning Websites & Apps - All In One Place
           </p>
 
@@ -25,7 +25,7 @@ export const Home = () => {
             <input
               type="text"
               placeholder='What do you want to build today?'
-              className='w-full py-5 px-12 bg-[#1a1a1a] text-[#ffffff3a] rounded-3xl focus:outline-none focus:ring-2 focus:ring-[#ff3e9a] transition-all duration-300 placeholder-gray-400 text-lg'
+              className='w-full py-5 px-12 bg-[#1a1a1a] text-white rounded-3xl focus:outline-none focus:ring-2 focus:ring-[#ff3e9a] transition-all duration-300 placeholder-gray-400 text-lg'
             />
           </div>
         </div>
