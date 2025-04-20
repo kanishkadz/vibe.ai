@@ -28,10 +28,10 @@ While tools like Claude and v0 are impressive, they can't install packages, run 
 
 ```bash
 # Clone the repository
-git clone https://github.com/vibe-ai/vibe.ai.git
+https://github.com/kanishkadz/vibeai.git
 
 # Install dependencies
-cd vibe.ai
+cd vibeai
 npm install
 
 # Start the development server
