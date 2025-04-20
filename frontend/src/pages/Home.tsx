@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Sparkles } from 'lucide-react';
 import HeroTitle from '../hooks/HeroTitle';
 
 export const Home = () => {
+  const navigate = useNavigate();
+  const [inputValue, setInputValue] = useState('');
+
+  const handleKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      navigate('/builder');
+    }
+  };
+
   return (
     <div className='min-h-screen w-full bg-gradient-to-b from-[#b14a84] via-[#000000] to-[#000000] flex flex-col px-6'>
       <header className='pt-8 pb-4'>
@@ -26,10 +36,12 @@ export const Home = () => {
             </div>
             <input
               type="text"
+              value={inputValue}
+              onChange={(e) => setInputValue(e.target.value)}
+              onKeyDown={handleKeyDown}
               placeholder="What do you want to build today?"
               className="font-semibold w-full py-5 px-12 bg-[#1a1a1a] text-white rounded-3xl focus:outline-none focus:ring-2 focus:ring-[#ff3e9a] transition-all duration-300 placeholder-gray-400 text-lg input-glow outline-none"
             />
-
           </div>
         </div>
       </main>
