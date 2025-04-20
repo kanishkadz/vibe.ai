@@ -1,24 +1,38 @@
-# Vibe.ai
+# Vibe.AI: Open-Source AI-Powered Full-Stack Web Development
 
-Vibe.ai is an intelligent AI agent designed to enhance user interactions, built with React for the frontend, Tailwind CSS for styling, and Node.js with Express for the backend services. Vibe.ai leverages the power of modern web technologies to provide a seamless and intuitive experience for users.
-
-🌟 **Features**
-- **AI-Powered Interactions**: Engage with an AI agent designed to assist and enhance user experiences.
-- **Real-Time Communication**: Instant responses and interactions through an intelligent backend powered by Node.js and Express.
-- **Responsive Design**: A mobile-first interface optimized for various devices, ensuring a smooth experience across all platforms.
-- **Customizable Interface**: Tailwind CSS ensures a sleek, clean, and easily customizable UI for all users.
-- **Secure Backend**: Node.js with Express handles all backend operations, providing scalability and security for the app.
-
-🛠️ **Tech Stack**
-- **Frontend Framework**: React
-- **Backend Services**: Node.js with Express
-- **Styling**: Tailwind CSS
-- **Language**: JavaScript (ES6+)
-- **State Management**: React Hooks
-- **Hosting**: (Add your hosting service here, e.g., Vercel, Netlify)
-
-🔒 **Authentication & Security**
-- (You can mention any authentication strategy you're using here, e.g., JWT for secure user sessions, OAuth, etc.)
+Vibe.AI is an open-source AI-powered web development agent that allows you to prompt, run, edit, and deploy full-stack applications directly from your browser—no local setup required.
 
 
+## What Makes Vibe.AI Different
 
+While tools like Claude and v0 are impressive, they can't install packages, run backends, or edit code. Vibe.AI stands out because:
+
+1. *Completely Open-Source*: Unlike proprietary alternatives, Vibe.AI's entire codebase is open for inspection and contribution.
+   
+2. *Future-Open WebContainer Tech*: We're actively working to open-source our WebContainer implementation (currently using StackBlitz's proprietary version as a foundation).
+
+3. *Full-Stack in the Browser*:
+   - Install and run npm tools/libraries (Vite, Next.js, etc.)
+   - Execute Node.js servers
+   - Interact with third-party APIs
+   - Deploy to production from chat
+   - Share projects via URL
+
+4. *AI with Environment Control*:
+   - Full filesystem access
+   - Node server management
+   - Package manager integration
+   - Terminal/browser console access
+
+## Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/vibe-ai/vibe.ai.git
+
+# Install dependencies
+cd vibe.ai
+npm install
+
+# Start the development server
+npm run dev
